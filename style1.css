@@ -1,0 +1,26 @@
+#register_form {
+  width: 37%;
+  margin: 100px auto;
+  padding-bottom: 30px;
+  border: 1px solid #918274;
+  border-radius: 5px;
+  background: white;
+}
+#register_form input {
+  width: 80%;
+  height: 35px;
+  margin: 5px 10%;
+  font-size: 1.1em;
+  padding: 4px;
+  font-size: .9em;
+}
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
+.form_error input {
+  border: 1px solid #D83D5A;
+}

@@ -1,0 +1,115 @@
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	height: fit-content;
+}
+
+button:link {
+	
+				color: red;
+			}
+			
+button:visited {
+				color: purple;
+			}
+button:hover {
+				color: blue;
+				
+			}
+
+a:link {
+				color: red;
+			}
+			
+a:visited {
+				color: purple;
+			}
+a:hover {
+				color: blue;
+				
+			}
+
+.form-div{
+	text-align: center;
+	margin: 50px auto 50px;
+	padding: 25px 15px 10px 15px;
+	border: 1px solid #80ced7;
+	border-radius: 5px;
+	font-family: 'Lora', serif;
+	font-size: .9em;
+	box-sizing: content-box;
+	height: fit-content;
+}
+
+::placeholder { 
+  color: #b0b0b0;
+  opacity: 1; 
+}
+:-ms-input-placeholder { 
+  color: #b0b0b0;
+}
+
+
+.btn-block{
+	display: block;
+	width: 100%;
+}
+.form-control{
+	box-sizing: border-box;
+	height: 30%;
+
+}
+#register_form input {
+  width: 80%;
+  height: 35px;
+  margin: 5px 10%;
+  padding: 4px;
+  font-size: .9em;
+}
+#login_form input {
+  width: 80%;
+  height: 35px;
+  margin: 5px 10%;
+  font-size: 1.1em;
+  padding: 4px;
+  font-size: .9em;
+}
+.form-control:focus{
+	box-shadow: none;
+
+}
+
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: red;
+}
+.form_error input {
+  border: 1px solid none;
+}
+
+.error {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.btn{
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 90%;
+	background: #5F9EA0;
+	color: white;
+
+
+}
